@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Nav-logo {
+  height: 50px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.loginSubmit {
+  background-color: #1a5adb;
+  height: 32px;
+  width: 100px;
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.loginText {
+  font-size: 20px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+
+.nav-container {
+  min-height: 8vh;
+  background-color: rgb(33, 37, 41);
+  display: flex;
+}
+
+.nav-container a {
+  padding-top: 14px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.App-header {
+  background-image: url('../public/login-background.jpg');
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-footer{
+  min-height: 10vh;
+  background-color: rgb(33, 37, 41);
+  color: white;
+  width:100%;
+  display: block;
+  align-items: center;  
+}
+
+.main-footer a{
+  min-height: 10vh;
+  background-color: rgb(33, 37, 41);
+  color: white;
+  width:100%;
+  padding-right: 15px;
+}
+
+.login-container {
+  border: 1px solid black;
+  padding-bottom: 35px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.h3Text {
+  color: black;
+}
+
+.forget-register {
+  display: flex;
+  color: black;
+}
+
+.forget-register-links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.forget-register a {
+  color: black;
+  padding-bottom: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
