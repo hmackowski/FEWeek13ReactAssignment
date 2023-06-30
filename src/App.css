@@ -25,12 +25,15 @@
   color: white;
   border-radius: 25px;
   font-size: 20px;
+  border: none;
 }
 
 .loginText {
   font-size: 20px;
   border-radius: 25px;
   margin-bottom: 10px;
+  border-style:double;
+  
 }
 
 
