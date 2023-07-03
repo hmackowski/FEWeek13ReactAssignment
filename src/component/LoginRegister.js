@@ -8,8 +8,8 @@ function LoginRegister() {
   return (
     // The div has a specific CSS class assigned for styling purposes
     <div className="forget-register-links">
-      {/* The first anchor tag is for the "Forget password?" link */}
-      <a href="#">Forget password?</a>
+      {/* The first anchor tag is for the "Forgot password?" link */}
+      <a href="#">Forgot password?</a>
 
       {/* The second anchor tag is for the "Register" link */}
       <a href="#">Register</a>

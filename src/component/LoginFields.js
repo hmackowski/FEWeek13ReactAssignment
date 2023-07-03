@@ -18,7 +18,7 @@ function LoginFields() {
 
   // The component renders a div which contains form elements
   return (
-    <div>
+    <form>
       {/* Iterating over the formElements array and returning an input for each object */}
       {formElements.map((formElement, index) => (
         // Wrapping each input in a div for styling and layout, assigning a unique key to each div using the map function's index parameter
@@ -34,7 +34,7 @@ function LoginFields() {
           value={formElement.valueText}/> 
         </div>
       ))}
-    </div>
+    </form>
   );
 }
 

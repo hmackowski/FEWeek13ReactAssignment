@@ -13,7 +13,6 @@ function Footer() {
         {/* An image tag where the source is a local image that is required (imported) at runtime */}
         <img id="githubImage" src={require("../images/github.png")}></img>
       </a>
-
       {/* An anchor tag that opens a new tab and directs the user to a LinkedIn profile when clicked */}
       <a target="_blank" href="https://www.linkedin.com/in/hmackowski/">
         {/* An image tag where the source is a local image that is required (imported) at runtime */}

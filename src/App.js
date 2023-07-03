@@ -1,6 +1,5 @@
 // Importing the SVG logo from the local files
 import logo from "./logo.svg";
-
 // Importing App.css for general styles across the app
 import "./App.css";
 
@@ -20,7 +19,7 @@ function App() {
     <>
       {/* Inserting the MainNav component at the top of the App */}
       <MainNav />
-      
+
       <div className="App">
         {/* Creating a header for the App, and placing the Login component within it */}
         <header className="App-header">

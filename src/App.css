@@ -33,21 +33,37 @@
   border-radius: 25px;
   margin-bottom: 10px;
   border-style:double;
-  
+  /* text-align: center; */
+  padding-left: 14px;
 }
 
+poke{
+  color: black;
+}
 
 .nav-container {
   min-height: 8vh;
   background-color: rgb(33, 37, 41);
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
 }
 
+
 .nav-container a {
-  padding-top: 14px;
+  margin-top: 0px;
   margin-left: 20px;
   font-size: 20px;
   color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-container a:hover {
+  color: rgb(129, 129, 129);
   text-decoration: none;
 }
 
