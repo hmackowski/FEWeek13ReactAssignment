@@ -7,10 +7,10 @@ function LoginFields() {
   // An array of objects representing form elements with their respective attributes
   let formElements = [
     // An object representing a username input field
-    {inputType: "text", placeHolderText: "  Username", inputClass: "loginText", autoComplete: "username"},
+    {inputType: "text", placeHolderText: "Username", inputClass: "loginText", autoComplete: "username"},
     
     // An object representing a password input field
-    {inputType: "password", placeHolderText: "  Password", inputClass: "loginText",autoComplete: "new-password" },
+    {inputType: "password", placeHolderText: "Password", inputClass: "loginText",autoComplete: "new-password" },
     
     // An object representing a login button
     {inputType: "button", valueText: "Login", inputClass: "loginSubmit"}
